@@ -2,7 +2,12 @@
 
 
 export default {
-  content: ["**/*.html"],
+  content: [
+    './**/*.html',
+    './**/*.js',
+    './**/*.ts',
+    '!./node_modules/**/*', // Exclure les fichiers dans node_modules
+  ],
   theme: {
     container: {
       center: true,
