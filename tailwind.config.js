@@ -1,6 +1,5 @@
 // tailwind.config.mjs
 
-
 export default {
   content: [
     './**/*.html',
